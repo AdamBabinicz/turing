@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Sitemap: https://alan-mathison-turing.netlify.app/sitemap.xml
+Host: https://alan-mathison-turing.netlify.app
+
