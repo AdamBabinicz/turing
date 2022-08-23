@@ -1,43 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta charset="UTF-8" />
+    <link rel="icon" href="%PUBLIC_URL%/1.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      name="DESCRIPTION"
+      content="Ciało znaleziono 8 czerwca 1954 r., we wtorek, ale Alan Turing nie żył już od poniedziałku. Leżał, jakby spał, we własnym łóżku, na piętrze ceglanego domu w Wilmslow, niedaleko Manchesteru. Obok znaleziono nadgryzione jabłko."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <meta
+      name="Sekcja zwłok potwierdziła pierwsze przypuszczenia. Dla organów ścigania sprawa była jasna: udręczony wydarzeniami ostatnich kilku lat życia samotny, 41-letni mężczyzna sięgnął po zatruty przez siebie owoc. Jeden kęs i sprawa zamknięta."
+      content="index, follow"
+    />
+    <meta name="handheldFriendly" content="true" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Dał początek kilku dziedzinom nauki. Zapoczątkował rewolucję technologiczną i informatyczną."
+    />
+    <meta property="og:url" content="https://zbigniew-herbert.netlify.app" />
+    <meta
+      property="og:image"
+      content="https://zbigniew-herbert.netlify.app/2.png"
+    />
+    <meta property="fb:app_id" content="1951716098397474" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="1200" />
+    <meta
+      property="business:contact_data:street_address"
+      content="Alan Turing"
+    />
+    <meta
+      property="business:contact_data:locality"
+      content="Będąc uczniem brudnym, nieuczesanym, niezdarnym, roztargnionym, a jednocześnie stroniącym od towarzystwa, nie cieszył się przesadnym uznaniem."
+    />
+    <meta
+      property="business:contact_data:region"
+      content="„Nie najlepszy. Jak się wydaje, spędza wiele czasu na badaniu problemów matematycznych, jednak kosztem podstaw. A solidna podbudowa jest kluczowa w każdym przedmiocie. Jego praca jest niechlujna”."
+    />
+    <meta property="business:contact_data:postal_code" content="176219" />
+    <meta
+      property="business:contact_data:country_name"
+      content="Turing podchodził do największych matematycznych i filozoficznych wyzwań epoki z przewrotnej perspektywy gościa z kosmosu."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:site"
+      content="https://twitter.com/turinginst?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+    />
+    <meta name="twitter:title" content="„O liczbach obliczalnych”" />
+    <meta
+      name="twitter:description"
+      content="Mając lat 24 opublikował piękną pracę „On Computable Numbers” („O liczbach obliczalnych”). Pod tym niepozornym tytułem kryła się prawdziwa bomba, która raz na zawsze rozsadziła gmach nauk ścisłych."
+    />
+    <meta
+      name="twitter:image"
+      content="https://zbigniew-herbert.netlify.app/14.jpg"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Inspirowany między innymi pismami Bertranda Russella wymyślił coś, co dziś nazwiemy programem komputerowym."
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/1.png" />
+    <title>Alan Turing</title>
+    <link
+      href="http://fonts.googleapis.com/css?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div id="modal"></div>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@type": "VideoObject",
+        "name": "Maszyna Turinga",
+        "contentUrl": "https://www.facebook.com/TomaszStanko.official",
+        "duration": "PT00H04M33S",
+        "thumbnailUrl": "https://zbigniew-herbert.netlify.app/2.webp",
+        "uploadDate": "2022-08-23",
+        "description": "Wymyślił też maszynę zdolną do imitowania wszystkich innych maszyn (tak zwaną uniwersalną maszynę Turinga), czyli, mówiąc w skrócie, współczesny komputer."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Blog",
+        "url": "https://zbigniew-herbert.netlify.app"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "Alan Turing",
+        "url": "https://zbigniew-herbert.netlify.app",
+        "sameAs": [
+          "https://www.facebook.com/AlanTuringCodebreaker",
+          "https://pl.wikipedia.org/wiki/Alan_Turing",
+          "https://www.instagram.com/theturinginst",
+          "https://www.youtube.com/watch?v=gtRLmL70TH0",
+          "https://pl.pinterest.com/natethetatertot/alan-turing"
+        ]
+      }
+    </script>
   </body>
 </html>
