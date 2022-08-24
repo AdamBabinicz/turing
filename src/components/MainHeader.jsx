@@ -25,7 +25,7 @@ const MainHeader = () => {
           </button>
           <Modal show={modal} close={Toggle} title="Wczesny start">
             <p>
-              23 czerwca 1912 w Londynie urodził się Alan Mathison Turing[6][7].
+              23 czerwca 1912 w Londynie urodził się Alan Mathison Turing.
               Turing miał starszego brata, Johna. Ojciec niedługo po jego
               narodzinach wrócił do Indii, natomiast matka wyjechała tam
               piętnaście miesięcy później – w połowie września 1913,
