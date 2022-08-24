@@ -35,7 +35,7 @@ const Div = styled.div`
     justify-content: center;
     align-items: center;
     transition: 0.4s ease-in-out;
-    z-index: 2500;
+    z-index: 100;
     transition: 0.5s;
     overflow: hidden;
 
