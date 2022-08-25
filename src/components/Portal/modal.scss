@@ -44,8 +44,7 @@
     @media only screen and (max-width: 676px) {
       width: calc(10rem + 55vw);
       font-size: 1rem;
-      // height: 90%;
-      height: fit-content;
+      height: 90%;
     }
 
     &_header {
@@ -95,8 +94,9 @@
     }
 
     &_footer {
+      margin-top: -1rem;
       padding: 2rem 0;
-      padding-bottom: 0;
+      // padding-bottom: 0;
       display: flex;
       justify-content: flex-end;
       background: transparent;
